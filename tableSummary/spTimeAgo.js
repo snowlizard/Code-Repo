@@ -1,5 +1,5 @@
 // IGNORE ERROR ON LINE 3
-// Angular dependency
+// Angular Provider, Type: Directive
 function () {
 	function timeSince(date) {
 

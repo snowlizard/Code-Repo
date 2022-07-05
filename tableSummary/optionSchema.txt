@@ -17,3 +17,6 @@ Label: Enable arrow key selection
 Name: enable_arrow_key_selection
 Type: boolean
 Form section: Behavior
+
+Data table: Instance with table [sp_instance_table]
+Fields: Table
