@@ -1,0 +1,14 @@
+<!-- ng-template -->
+
+<div class="modal-header">
+    <h4 class="modal-title">
+      <button type="button" class="close" 
+              ng-click="modalC.modalInstance.close()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      Event registration: {{ modalC.record.email }}
+    </h4>
+  </div>
+  <div class="modal-body">
+    <sp-widget widget="modalC.form"></sp-widget>	
+  </div>

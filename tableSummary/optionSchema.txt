@@ -1,0 +1,19 @@
+Label: Aggregate field
+Name: aggregate_field
+Type: field_type
+Form section: Data
+
+Label: Title
+Name: title
+Type: string
+Form section: Presentation
+
+Label: Display fields
+Name: display_fields
+Type: field_list
+Form section: Presentation
+
+Label: Enable arrow key selection
+Name: enable_arrow_key_selection
+Type: boolean
+Form section: Behavior
