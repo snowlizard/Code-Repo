@@ -1,4 +1,4 @@
-api.controller=function(spUtil, $uibModal) {
+api.controller=function(spUtil, $uibModal, spModal, $http) {
     /* widget controller */
     var c = this;
       
@@ -36,7 +36,30 @@ api.controller=function(spUtil, $uibModal) {
               }).then( function (response) {
                   modalC.form = response;
               })
-      }
+      }	
           })
       }
-};
+      
+      //Delete record functionality
+      c.deleteRecord = function(record){
+  
+          //Confirm the deletion
+          spModal.confirm("Are you sure you want to delete this record?").then(function successCallback(answer) {
+  
+              //Delete request upon confirmation
+              $http({
+                  method:'DELETE',
+                  url: '/api/now/table/' + c.data.table + '/' + record.sys_id
+                  
+                  //Confirm record deleted
+              }).then(function successCallback(response){
+                  spUtil.addInfoMessage("Record deleted");
+              })
+  
+              //Confirm record not deleted
+          }, function errorCallback(response){
+              spUtil.addInfoMessage('Record not deleted');
+          })
+      }	
+  
+  };	

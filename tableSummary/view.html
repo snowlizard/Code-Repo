@@ -1,55 +1,60 @@
 <form>
   
-    <!-- Step 2. Display initial data from the server -->
-    <div class="panel panel-default">
-      <!-- Default panel contents -->
-      <div class="panel-heading">{{::c.options.title}}</div>
+  <!-- Step 2. Display initial data from the server -->
+  <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">{{::c.options.title}}</div>
+
+    <!-- List group -->
+    <ul class="list-group">
+      <li class="list-group-item"
+          ng-repeat="str in c.data.summary"
+          ng-click="c.selectAg(str)"
+          ng-class="{ 'selected' : c.data.selectedAg == s.agValue}">
+        {{str.agName}} <span class="badge">{{str.agCount}}</span>
+      </li>
+    </ul>
+	</div>
   
-      <!-- List group -->
-      <ul class="list-group">
-        <li class="list-group-item"
-            ng-repeat="str in c.data.summary"
-            ng-click="c.selectAg(str)"
-            ng-class="{ 'selected' : c.data.selectedAg == s.agValue}">
-          {{str.agName}} <span class="badge">{{str.agCount}}</span>
-        </li>
-      </ul>
-      </div>
-    
-    <!-- Step 5. Display customized content based on user input -->
-       <table class="table cloud-widgets"
-           ng-if="c.data.records">
-      <thead>
-        <tr>
-          <th ng-repeat="label in c.data.labels"
-              ng-click="c.changeSortCol(label.key)">{{label.value}}
-          <!-- Only show and style the selected column -->
-          <span ng-show="c.orderCol==label.key">
-            <span class="fa fa-sort-up"
-                  ng-show="!c.sortOrder"></span>
-            <span class="fa fa-sort-down"
-                  ng-show="c.sortOrder"></span>
+  <!-- Step 5. Display customized content based on user input -->
+ 	<table class="table cloud-widgets"
+         ng-if="c.data.records">
+    <thead>
+      <tr>
+        <th ng-repeat="label in c.data.labels"
+            ng-click="c.changeSortCol(label.key)">{{label.value}}
+        <!-- Only show and style the selected column -->
+        <span ng-show="c.orderCol==label.key">
+          <span class="fa fa-sort-up"
+                ng-show="!c.sortOrder"></span>
+          <span class="fa fa-sort-down"
+                ng-show="c.sortOrder"></span>
+        </span>	
+        </th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr ng-repeat="record in c.data.records | orderBy: c.orderCol : c.sortOrder">
+        <td ng-repeat="label in c.data.labels">
+        	<sp-time-ago date="record[label.key]"
+          ng-if="label.type=='glide_date_time'">
+          </sp-time-ago>
+          <span ng-if="label.type!='glide_date_time'">
+            {{ record[label.key] }}
           </span>	
-          </th>
-          <th></th>
-        </tr>
-      </thead>
-  
-      <tbody>
-        <tr ng-repeat="record in c.data.records | orderBy: c.orderCol : c.sortOrder">
-          <td ng-repeat="label in c.data.labels">
-              <sp-time-ago date="record[label.key]"
-            ng-if="label.type=='glide_date_time'">
-            </sp-time-ago>
-            <span ng-if="label.type!='glide_date_time'">
-              {{ record[label.key] }}
-            </span>	
-          </td>
-          <td>
-              <span class="fa fa-info-circle"
-                  ng-click="c.openRecord(record)"></span>
-          </td>
-        </tr>
-      </tbody>
-    </table>	
-  </form>
+        </td>
+        <td>
+        	<span class="fa fa-info-circle"
+                ng-click="c.openRecord(record)"></span>
+        </td>
+        <td>
+        	<span class="fa fa-trash"
+                ng-click="c.deleteRecord(record)"></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>	
+</form>
