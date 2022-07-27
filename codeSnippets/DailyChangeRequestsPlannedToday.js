@@ -12,8 +12,7 @@ while (changeRequests.next()) {
     start_date.setValue(changeRequests.start_date);
     start_date.subtract(time);
 
-
     gs.eventQueueScheduled('scheduled_job.change_request', changeRequests,
-        changeRequests.getValue('number'), changeRequests.getValue('sys_id'),
-        start_date.getDisplayValue());
+        changeRequests.getValue('number'), changeRequests.getValue('assigned_to'),
+        start_date);
 }
