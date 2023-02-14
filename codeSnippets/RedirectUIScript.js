@@ -5,6 +5,8 @@
 
     All > System UI > UI Scripts
 
+    replace window.location with top.window.location to reload entire page
+
 */
 
 addLoadEvent(function () {
