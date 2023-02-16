@@ -17,7 +17,7 @@ while (gr.next()) {
         scheduleReport.setValue('run_as', gr.user);
         scheduleReport.update();
         SncTriggerSynchronizer.executeNow(scheduleReport);
-
+        gs.sleep(4000);
     }
 
 }
