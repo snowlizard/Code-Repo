@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-11-07 19:13:23">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Catalog restriction</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>3b996a12971e7110f87eba77f053af52</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6f15543a935eb1106a8b345d6cba1096</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_eeeb2bd29752b110f87eba77f053af6a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create Incident">3f1dd0320a0a0b99000a53f7604a2ef9</sc_cat_item><sc_category display_value="ServiceNow">fdecce0197cd7150f87eba77f053afdd</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:34:51</sys_created_on><sys_id>eeeb2bd29752b110f87eba77f053af6a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ServiceNow.Create Incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_eeeb2bd29752b110f87eba77f053af6a</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:34:51</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-633716450</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2315543a935eb1106a8b345d6cba1098</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba68f4f820000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>ServiceNow.Create Incident</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>aaeb2bd26c52b110c3d4b8e3705e9f6d</update_guid>
+<update_guid_history>aaeb2bd26c52b110c3d4b8e3705e9f6d:-633716450</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_4351471e975e7110f87eba77f053af76</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Ticket Access</label><live_feed_enabled>true</live_feed_enabled><name>u_ticket_access</name><number_ref display_value="TIKA">d6a14f1e975e7110f87eba77f053af53</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Data Lookup Matcher Rules" name="dl_matcher">e79d524187d21110c26bcaad0ebb3577</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_id>4351471e975e7110f87eba77f053af76</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Ticket Access</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_4351471e975e7110f87eba77f053af76</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:14</sys_updated_on><update_access>false</update_access><user_role display_value="u_ticket_access_user" name="u_ticket_access_user">7da10f5a975e7110f87eba77f053af4e</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-920375049</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2315d47a935eb1106a8b345d6cba10d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e64ac90000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>56a14f1e345e7110650e5535e491c28c</update_guid>
+<update_guid_history>56a14f1e345e7110650e5535e491c28c:-920375049,12a14f1e405e7110544f323892349152:-214650779</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_671c97129712b110f87eba77f053af86</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Ticket Access Query Filter&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (gs.isInteractive()) {
+        var filter = new TicketAccessUtil().ritmTaskFilter(false);
+        current.addEncodedQuery(filter);
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 21:17:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;671c97129712b110f87eba77f053af86&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ticket Access Query Filter&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_671c97129712b110f87eba77f053af86&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-07 18:11:22&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=671c97129712b110f87eba77f053af86"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>193086475</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2315d47a935eb1106a8b345d6cba10d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18baafb621d0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>Ticket Access Query Filter</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>a3e644ba801eb110750965e49033ff29</update_guid>
+<update_guid_history>a3e644ba801eb110750965e49033ff29:193086475,ecc6883aa41eb110b5358da043004ab3:516226012,1166803a551eb1100640ec5105e3d419:193086475,28186cee801e71108bb2df232063e3c7:-26135304,f8f5e46e911e71106e9f7650b1713a11:-1948047571,02a4206ad91e7110bde4f8a5e1c0ddc3:-1400914672,0424246a5c1e711098193feafb844ca7:1526811799,e753282afe1e7110b61a8993cae134cc:-1400914672,7823642a9c1e71107e0250c996b31b72:1458140852,83a2ace63b1e71103e4d4b0049385511:842262411,a48228e6b41e71109e3a438d9a926532:-1756549870,64ff9c26a61e71109ab4c044e609cfbd:-1537800555,358a50eac4da7110cd540d75336f0849:1188009635,7438dcee149a7110432ce675be1eb5ef:-738345358,5336c8e6295a7110424062cf39938946:-1563341574,bb244ca6745a7110d4c730e6da0b7029:1341558162,62b3c8e6f25a7110b869ccf2edd6f33a:-1165896378,52343316211a7110c897481bbd17014e:-1209937625,27f2bb12de1a71103b89e2c23cfd77dc:1844857343,d4e2bb926d1a7110d0df49eba67f1de2:-617533181,76d72f5eae12b110d7727882bbdd190b:88277155</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_c6a10f1e975e7110f87eba77f053af94</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_id>c6a10f1e975e7110f87eba77f053af94</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access.u_ticket_access_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_ticket_access">06a10f1e975e7110f87eba77f053af8f</sys_security_acl><sys_update_name>sys_security_acl_role_c6a10f1e975e7110f87eba77f053af94</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:13</sys_updated_on><sys_user_role display_value="u_ticket_access_user" name="u_ticket_access_user">7da10f5a975e7110f87eba77f053af4e</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-26792053</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2315d47a935eb1106a8b345d6cba10d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e6464d0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_ticket_access.u_ticket_access_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>4ea10f1e4d5e711037f9513d48d84a96</update_guid>
+<update_guid_history>4ea10f1e4d5e711037f9513d48d84a96:-26792053</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_01d05c368790a510c028caad0ebb3557</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Create Incident">3f1dd0320a0a0b99000a53f7604a2ef9</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>singh.rah</sys_created_by><sys_created_on>2023-01-13 12:37:53</sys_created_on><sys_id>01d05c368790a510c028caad0ebb3557</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Create Incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_01d05c368790a510c028caad0ebb3557</sys_update_name><sys_updated_by>singh.rah</sys_updated_by><sys_updated_on>2023-01-13 12:37:53</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>-118862927</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2715543a935eb1106a8b345d6cba1097</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba68ee2910000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>Service Catalog.Create Incident</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>bbcba7d21552b110ec01d5ab97da63ad</update_guid>
+<update_guid_history>bbcba7d21552b110ec01d5ab97da63ad:-118862927,81d05c369c90a510688174618661755a:1379052733</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ticket_access_u_roles_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_roles" label="Roles" language="en" table="u_ticket_access"><sys_documentation action="INSERT_OR_UPDATE"><element>u_roles</element><help/><hint/><label>Roles</label><language>en</language><name>u_ticket_access</name><plural>Roles</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 20:21:15</sys_created_on><sys_id>281b1b5e97de7110f87eba77f053af22</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Roles</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ticket_access_u_roles_en</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 20:21:15</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>457172722</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2715d47a935eb1106a8b345d6cba10d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba64bef9c0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Roles</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>681b1b5ec4de7110176396aa23fed63f</update_guid>
+<update_guid_history>681b1b5ec4de7110176396aa23fed63f:457172722</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_0ea14f1e975e7110f87eba77f053af0c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:14</sys_created_on><sys_id>0ea14f1e975e7110f87eba77f053af0c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access.u_ticket_access_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_ticket_access">4ea10f1e975e7110f87eba77f053afca</sys_security_acl><sys_update_name>sys_security_acl_role_0ea14f1e975e7110f87eba77f053af0c</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:14</sys_updated_on><sys_user_role display_value="u_ticket_access_user" name="u_ticket_access_user">7da10f5a975e7110f87eba77f053af4e</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>694345638</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2715d47a935eb1106a8b345d6cba10d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e647980000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_ticket_access.u_ticket_access_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>c6a14f1e425e71102dbf41c7ffbccb0e</update_guid>
+<update_guid_history>c6a14f1e425e71102dbf41c7ffbccb0e:694345638</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ticket_access_u_catalog_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_catalog" label="Catalog" language="en" table="u_ticket_access"><sys_documentation action="INSERT_OR_UPDATE"><element>u_catalog</element><help/><hint/><label>Catalog</label><language>en</language><name>u_ticket_access</name><plural>Catalogs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 19:06:37</sys_created_on><sys_id>c7f9cb96979e7110f87eba77f053af7e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Catalog</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ticket_access_u_catalog_en</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 19:06:37</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1903953283</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2b15d47a935eb1106a8b345d6cba10d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba6079b310000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Catalog</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>dff9cb96119e7110ef944bd5c54b2f9b</update_guid>
+<update_guid_history>dff9cb96119e7110ef944bd5c54b2f9b:-1903953283</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_4ea10f1e975e7110f87eba77f053afca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_ticket_access</description><local_or_existing>Local</local_or_existing><name>u_ticket_access</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:14</sys_created_on><sys_id>4ea10f1e975e7110f87eba77f053afca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_4ea10f1e975e7110f87eba77f053afca</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:14</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1890712473</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2b15d47a935eb1106a8b345d6cba10d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e647720000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_ticket_access</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>46a10f1e3a5e7110791de3d9ca8051cd</update_guid>
+<update_guid_history>46a10f1e3a5e7110791de3d9ca8051cd:-1890712473</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_7da10f5a975e7110f87eba77f053af4e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_ticket_access_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_id>7da10f5a975e7110f87eba77f053af4e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_7da10f5a975e7110f87eba77f053af4e</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:13</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-2057256586</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2b15d47a935eb1106a8b345d6cba10d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e643750000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>u_ticket_access_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>f1a10f1e155e7110b2f7d741a16cc679</update_guid>
+<update_guid_history>f1a10f1e155e7110b2f7d741a16cc679:-2057256586</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_ticket_access_u_type</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_type" table="u_ticket_access" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_type</element><name>u_ticket_access</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:21:03</sys_created_on><sys_id>90c86f9e9712b110f87eba77f053af30</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_ticket_access_u_type</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:21:03</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_type</element><hint/><inactive>false</inactive><label>Requested Item</label><language>en</language><name>u_ticket_access</name><sequence>100</sequence><synonyms/><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:21:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c9686f9e9712b110f87eba77f053aff9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:21:03</sys_updated_on><value>requested item</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-75940182</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2f15543a935eb1106a8b345d6cba1098</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba682aacd0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Type</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>d0c86f9e6812b110bfa25d60b6151933</update_guid>
+<update_guid_history>d0c86f9e6812b110bfa25d60b6151933:-75940182</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ticket_access_u_groups</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_groups" table="u_ticket_access"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Groups&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_groups&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;glide_list&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;name&gt;u_ticket_access&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user_group"&gt;sys_user_group&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 22:34:47&lt;/sys_created_on&gt;&lt;sys_id&gt;8089335a931a71106a8b345d6cba1056&lt;/sys_id&gt;&lt;sys_name&gt;Groups&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_ticket_access_u_groups&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-06 22:34:47&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1160271466</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2f15d47a935eb1106a8b345d6cba10d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba6c62f450000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Groups</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>54a9b35add1a71107d4bc2a35e0c2d35</update_guid>
+<update_guid_history>54a9b35add1a71107d4bc2a35e0c2d35:1160271466</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_f00b00fe931eb1106a8b345d6cba1051</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Prevent duplicate category records&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var catalog = g_form.getValue('u_catalog');
+    var category = g_form.getValue('u_category');
+
+    var ajax = new GlideAjax('TicketAccessUtil');
+    ajax.addParam('sysparm_name', 'checkExistingCategory');
+    ajax.addParam('sysparm_catalog', catalog);
+    ajax.addParam('sysparm_category', category);
+    ajax.getXML(checkRecords);
+
+    function checkRecords(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+
+        if (answer == 'true') {
+            g_form.setValue('u_category', '');
+            g_form.addErrorMessage('Ticket Access Record already exists with that category');
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-07 18:35:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f00b00fe931eb1106a8b345d6cba1051&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Prevent duplicate category records&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f00b00fe931eb1106a8b345d6cba1051&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-07 18:46:36&lt;/sys_updated_on&gt;&lt;table&gt;u_ticket_access&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>870914312</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2f15d47a935eb1106a8b345d6cba10d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18bab1b9ff50000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Prevent duplicate category records</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>e3fe80f2965eb110bb293e16f94a8819</update_guid>
+<update_guid_history>e3fe80f2965eb110bb293e16f94a8819:870914312,d3ae88b2535eb110bceb9988ee12b822:-1429469283,301e8472475eb11045558e77af98032b:714797241,d33d8432035eb110dac06515123df6be:-619204425,cafccc329a5eb1105fa1db36011f2326:-67942066,425c0cfe181eb1104a6324be73a9642d:-154200029</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_2549efde9712b110f87eba77f053af92</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="u_ticket_access"&gt;u_type=requested item^EQ&lt;item display_value="Requested Item" endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="false" value="requested item"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Type is Requested Item&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 21:23:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2549efde9712b110f87eba77f053af92&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Type is Requested Item&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_2549efde9712b110f87eba77f053af92&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-06 21:23:41&lt;/sys_updated_on&gt;&lt;table&gt;u_ticket_access&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1005981407</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>2f15d47a935eb1106a8b345d6cba10d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba68514fa0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Type is Requested Item</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>72596312d052b110071fceeead236363</update_guid>
+<update_guid_history>72596312d052b110071fceeead236363:1005981407</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_catalog_e0d08b13c3330100c8b837659bba8fb4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog"><sc_catalog action="INSERT_OR_UPDATE"><active>false</active><background_color>#FFFFFF</background_color><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id. Venenatis tellus in metus vulputate eu scelerisque. Orci ac auctor augue mauris augue neque gravida in fermentum.</description><desktop_continue_shopping/><desktop_home_page/><desktop_image/><editors/><enable_wish_list>false</enable_wish_list><manager/><sys_class_name>sc_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2013-09-19 11:03:11</sys_created_on><sys_id>e0d08b13c3330100c8b837659bba8fb4</sys_id><sys_mod_count>50</sys_mod_count><sys_name>Service Catalog</sys_name><sys_package display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">383c924987921110c26bcaad0ebb3594</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_catalog_e0d08b13c3330100c8b837659bba8fb4</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:35:38</sys_updated_on><title>Service Catalog</title></sc_catalog><sys_translated_text action="delete_multiple" query="documentkey=e0d08b13c3330100c8b837659bba8fb4"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes/><compressed>true</compressed><content_type>image/png</content_type><file_name>desktop_image</file_name><hash/><image_height/><image_width/><size_bytes>609</size_bytes><size_compressed>627</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-16 22:01:11</sys_created_on><sys_id>adbcc271475211002ee987e8dee49001</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>guest</sys_updated_by><sys_updated_on>2023-05-02 13:47:45</sys_updated_on><table_name>ZZ_YYsc_catalog</table_name><table_sys_id>e0d08b13c3330100c8b837659bba8fb4</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="desktop_image" sys_id="adbcc271475211002ee987e8dee49001">adbcc271475211002ee987e8dee49001</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-16 22:01:11</sys_created_on><sys_id>edbcc271475211002ee987e8dee49001</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>6wzwc+flkuJiYGDg9fRwCQLSnkDswcEGJHfp36gEUpIlrhElwflpJeWJRakMjin5SakKnrmJ6alBqYkplYUnU20YGJiYPV0cQypuvZllmNdsINLme5TxxYSdMo3zFJ6xvJ2x9gmLb3rbEubiK8ItOZLVzBG7njNNfTFHUWbheZZFXJyLJAqyPv+/JMySwm639/ufnMMSLI4CS6aueaXCc7iBT2+CyKlFGl2r5b/Nl9ZPkanhWpqS7lH+oDCygcXj74m8nd/9TmabsnGYZKjm/pSY11LArOLABEZNDJwTYIgJJggWX7k7RyFBp0upfssEPuN3FxQVqidlzJuYq77bxPTu5CPftl5fWOuwoPZ2gv4nKYajKfa8Z4+YR+W9vbX65LwnJpXHt/7tUSx8f/Keyi1O/Zj+1JLTrp+mcoRf8ay96nnZgCd81r7wM/v2T3F45HN/feFlO2vnHYxCCiv970xXq9yVafhYBujEy8v9XvmG5FfqFmu+9JoVdOSehMcS3tfbUi6aqFebKN050T2HkUFU+MKmfOUioetb8pdOWDbrG6//LrdpTTUlMj9k32VOOf1anH95UtCawvSU6M46+RuZosUfehnWnQi2j363O+X0f5k8rSK36f89vP138y7Z1MAj4lA1TYf12eTYV9O3hi2TCeLUkFxwKo9ruQvTlA9KbguKnk4QYbYSnya0wGzKndhNR5feyZRkWGEX+nH1xT4GmeqKaZX3F9/eVHMh2svGeet5taJzUUVTRBfYa8gkr2l2EGBxvKDxVfsAw7W6vOXXt3BUM4BSkaufyzqnhCYAs/FpCmECAAA=</data><length>824</length><position>1</position><sys_attachment display_value="desktop_image" sys_id="adbcc271475211002ee987e8dee49001">adbcc271475211002ee987e8dee49001</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-16 22:01:11</sys_created_on><sys_id>21bcc271475211002ee987e8dee49002</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>-2100191167</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6315543a935eb1106a8b345d6cba1097</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba690045e0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>Service Catalog</target_name>
+<type>Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>b11c6bd25552b1105c63749275f32b4e</update_guid>
+<update_guid_history>b11c6bd25552b1105c63749275f32b4e:-2100191167,b91d316356636510af7e78e9ee93df1d:1769964936,3d1d79238a636510a605b69d2ed77e7d:-624466481,1250ad87d1b721d0f50d7defefc1c44f:-624466481</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ticket_access_u_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_number" label="Number" language="en" table="u_ticket_access"><sys_documentation action="INSERT_OR_UPDATE"><element>u_number</element><help/><hint/><label>Number</label><language>en</language><name>u_ticket_access</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:15</sys_created_on><sys_id>1aa14f1e975e7110f87eba77f053af92</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ticket_access_u_number_en</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:15</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1235242687</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6315d47a935eb1106a8b345d6cba10d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e64d3d0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>62a18f1e485e7110bc52724ac1a3af9a</update_guid>
+<update_guid_history>62a18f1e485e7110bc52724ac1a3af9a:1235242687</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_82a10f1e975e7110f87eba77f053afc4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_ticket_access</description><local_or_existing>Local</local_or_existing><name>u_ticket_access</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_id>82a10f1e975e7110f87eba77f053afc4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_82a10f1e975e7110f87eba77f053afc4</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:13</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>830491797</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6315d47a935eb1106a8b345d6cba10d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e646f60000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_ticket_access</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>8aa10f1ea05e7110ddf2cf3bad87efc6</update_guid>
+<update_guid_history>8aa10f1ea05e7110ddf2cf3bad87efc6:830491797</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ticket_access_u_type</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_type" table="u_ticket_access"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;1&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Type&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_ticket_access&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 21:19:15&lt;/sys_created_on&gt;&lt;sys_id&gt;68486b9e9712b110f87eba77f053af1e&lt;/sys_id&gt;&lt;sys_name&gt;Type&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_ticket_access_u_type&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-06 21:23:08&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>845099355</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6715d47a935eb1106a8b345d6cba10d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba684953b0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Type</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4739afde2712b1107e46567e1d6faa31</update_guid>
+<update_guid_history>4739afde2712b1107e46567e1d6faa31:845099355,1658eb9e9212b1107b121f7719486a80:-1662179354</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_06a10f1e975e7110f87eba77f053af8f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_ticket_access</description><local_or_existing>Local</local_or_existing><name>u_ticket_access</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_id>06a10f1e975e7110f87eba77f053af8f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_06a10f1e975e7110f87eba77f053af8f</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:13</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1661969925</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6715d47a935eb1106a8b345d6cba10d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e646190000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_ticket_access</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>82a10f1e2e5e711044ad4ba04ae14d93</update_guid>
+<update_guid_history>82a10f1e2e5e711044ad4ba04ae14d93:1661969925</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_563a03d6979e7110f87eba77f053af64</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="563a03d6979e7110f87eba77f053af64" sys_domain="global" table="u_ticket_access" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_number</element><position>0</position><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:35:45</sys_created_on><sys_id>aed9b75a931a71106a8b345d6cba10ba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ticket_access" sys_domain="global" view="Default view">563a03d6979e7110f87eba77f053af64</sys_ui_section><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:35:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_type</element><position>1</position><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:35:45</sys_created_on><sys_id>22d9b75a931a71106a8b345d6cba10bb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ticket_access" sys_domain="global" view="Default view">563a03d6979e7110f87eba77f053af64</sys_ui_section><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:35:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_catalog</element><position>2</position><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:35:45</sys_created_on><sys_id>a2d9b75a931a71106a8b345d6cba10bb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ticket_access" sys_domain="global" view="Default view">563a03d6979e7110f87eba77f053af64</sys_ui_section><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:35:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_category</element><position>3</position><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:35:45</sys_created_on><sys_id>26d9b75a931a71106a8b345d6cba10bb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ticket_access" sys_domain="global" view="Default view">563a03d6979e7110f87eba77f053af64</sys_ui_section><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:35:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:35:45</sys_created_on><sys_id>a6d9b75a931a71106a8b345d6cba10bb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ticket_access" sys_domain="global" view="Default view">563a03d6979e7110f87eba77f053af64</sys_ui_section><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:35:45</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_groups</element><position>5</position><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:35:45</sys_created_on><sys_id>2ad9b75a931a71106a8b345d6cba10bb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ticket_access" sys_domain="global" view="Default view">563a03d6979e7110f87eba77f053af64</sys_ui_section><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:35:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_roles</element><position>6</position><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:35:45</sys_created_on><sys_id>aad9b75a931a71106a8b345d6cba10bb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ticket_access" sys_domain="global" view="Default view">563a03d6979e7110f87eba77f053af64</sys_ui_section><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:35:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_ticket_access</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 19:07:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>563a03d6979e7110f87eba77f053af64</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_563a03d6979e7110f87eba77f053af64</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 19:07:39</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>355969403</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6715d47a935eb1106a8b345d6cba10d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba6c70fdc0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>6ed9b75ab51a71104de8be5e7e8b6ae2</update_guid>
+<update_guid_history>6ed9b75ab51a71104de8be5e7e8b6ae2:355969403,18a9b35a2a1a7110d15ca37acf823027:-20180785,a309abdefa12b1104b711e5f2d57f1dc:2011228002,5de8e7de2312b11065e01af9d5166184:1929726169,8a58eb9e2c12b110320f15837111ed70:1821267040,6d7b939e56de71101bf9c3658cfc377a:-1249683159,ab2bdb5ebade7110ac690380cbb6c07c:-937978405,ec1b1b5efade7110e6d279cddb68e220:-1016558747,1a3a03d62f9e7110bf90f883b60b4b6e:-1909080338,d23a03d6789e7110a2303860de299467:1575725099</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_bc08ef5e9712b110f87eba77f053af17</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Ticket Access">fda10f1e975e7110f87eba77f053af7f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_ticket_access</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>u_ticket_access_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:18:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bc08ef5e9712b110f87eba77f053af17</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_bc08ef5e9712b110f87eba77f053af17</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:18:24</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1286257841</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6b15543a935eb1106a8b345d6cba1098</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba680407f0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Create New</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>6928ef5ef912b11009c5a73df205760d</update_guid>
+<update_guid_history>6928ef5ef912b11009c5a73df205760d:1286257841</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ticket_access_u_category</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_category" table="u_ticket_access"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Category&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;u_catalog&lt;/dependent&gt;&lt;dependent_on_field&gt;u_catalog&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_category&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_ticket_access&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_category"&gt;sc_category&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;javascript:'sc_catalogISNOTEMPTY^sc_catalog='+current.u_catalog;&lt;/reference_qual&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 20:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;a45bdf5e97de7110f87eba77f053afd2&lt;/sys_id&gt;&lt;sys_name&gt;Category&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_ticket_access_u_category&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-07 18:19:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;advanced&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1410119814</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6b15d47a935eb1106a8b345d6cba10d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18bab02b8350000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Category</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>cdc8483ef61eb110a829fb8603a0e9d6</update_guid>
+<update_guid_history>cdc8483ef61eb110a829fb8603a0e9d6:-1410119814,9488043e361eb11027d4577edf1bb570:-584058366,f858ccfacd1eb110e7fc6e2a23156299:213744309,3b388cfa9f1eb11023f1ae8298f6d89a:-327009531,33c9eb120552b1102477d23875578a55:440439505,397b939eafde7110e681c5e726929188:722080303</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_bc6fc0f2935eb1106a8b345d6cba105d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_catalog&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Clear category on catalog change&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (g_form.getValue('u_category') !== '') {
+		g_form.clearValue('u_category');
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-07 18:50:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bc6fc0f2935eb1106a8b345d6cba105d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Clear category on catalog change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_bc6fc0f2935eb1106a8b345d6cba105d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-07 18:50:01&lt;/sys_updated_on&gt;&lt;table&gt;u_ticket_access&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1258303881</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6b15d47a935eb1106a8b345d6cba10d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18bab1ec2ff0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Clear category on catalog change</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>a1cfc8f20d5eb11097566be763485c54</update_guid>
+<update_guid_history>a1cfc8f20d5eb11097566be763485c54:-1258303881</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_39a10f1e975e7110f87eba77f053af8b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Ticket Access">b5a10f1e975e7110f87eba77f053af88</application><filter/><name>Ticket Access</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_ticket_access_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>39a10f1e975e7110f87eba77f053af8b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ticket Access</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_39a10f1e975e7110f87eba77f053af8b</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:13</sys_updated_on><table>u_ticket_access</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-1165673537</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6b15d47a935eb1106a8b345d6cba10d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e645160000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>0ea10f1eef5e71103ceb84b5339e188d</update_guid>
+<update_guid_history>0ea10f1eef5e71103ceb84b5339e188d:-1165673537</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_22eb2bd29752b110f87eba77f053af66</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create Incident">3f1dd0320a0a0b99000a53f7604a2ef9</sc_cat_item><sc_category display_value="ServiceNow">bf82629b9760b910f87eba77f053af29</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:34:51</sys_created_on><sys_id>22eb2bd29752b110f87eba77f053af66</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ServiceNow.Create Incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_22eb2bd29752b110f87eba77f053af66</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:34:51</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-226141565</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6f15543a935eb1106a8b345d6cba1097</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba68f4f470000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>ServiceNow.Create Incident</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>aaeb2bd2d452b110e566bcf8d096d169</update_guid>
+<update_guid_history>aaeb2bd2d452b110e566bcf8d096d169:-226141565</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_d6a14f1e975e7110f87eba77f053af53</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_ticket_access">u_ticket_access</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>TIKA</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:14</sys_created_on><sys_id>d6a14f1e975e7110f87eba77f053af53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TIKA</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_number_d6a14f1e975e7110f87eba77f053af53</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:14</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>-43592402</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6f15d47a935eb1106a8b345d6cba10d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e64d5a0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>TIKA</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>aea18f1e745e711035175b004b19299b</update_guid>
+<update_guid_history>aea18f1e745e711035175b004b19299b:-43592402</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_c2a10f1e975e7110f87eba77f053afc1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_id>c2a10f1e975e7110f87eba77f053afc1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access.u_ticket_access_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_ticket_access">82a10f1e975e7110f87eba77f053af98</sys_security_acl><sys_update_name>sys_security_acl_role_c2a10f1e975e7110f87eba77f053afc1</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:13</sys_updated_on><sys_user_role display_value="u_ticket_access_user" name="u_ticket_access_user">7da10f5a975e7110f87eba77f053af4e</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1193698800</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>6f15d47a935eb1106a8b345d6cba10d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e646b70000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_ticket_access.u_ticket_access_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>8ea10f1e685e711032706c960cdd40c2</update_guid>
+<update_guid_history>8ea10f1e685e711032706c960cdd40c2:1193698800</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ticket_access_u_roles</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_roles" table="u_ticket_access"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Roles&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_roles&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;glide_list&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;name&gt;u_ticket_access&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user_role"&gt;sys_user_role&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 20:21:15&lt;/sys_created_on&gt;&lt;sys_id&gt;1dfa975e97de7110f87eba77f053af46&lt;/sys_id&gt;&lt;sys_name&gt;Roles&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_ticket_access_u_roles&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-06 20:21:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>935739540</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>a315d47a935eb1106a8b345d6cba10d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba64bef7b0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Roles</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>601b1b5ea2de7110e29415b8e8ea3b31</update_guid>
+<update_guid_history>601b1b5ea2de7110e29415b8e8ea3b31:935739540</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_2a3ed8a2931e71106a8b345d6cba10bd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.TicketAccessUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Script utility for Ticket Access table&lt;/description&gt;&lt;name&gt;TicketAccessUtil&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var TicketAccessUtil = Class.create();
+TicketAccessUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	// Returns a filter removing any ritm/task
+	// the user does not have access to
+	// user can see any restricted ritm/task
+	// they requested or on the watch list
+    ritmTaskFilter: function(isTask) {
+        var task = isTask != null ? isTask : this.getParameter('sysparm_isTask');
+        var filter = '';
+
+        var catalog = new GlideRecord('sc_catalog');
+        catalog.addActiveQuery();
+        catalog.query();
+
+        while (catalog.next()) {
+            var grTA = new GlideRecord('u_ticket_access');
+            grTA.addQuery('u_catalog', catalog.getUniqueValue());
+            grTA.orderByDesc('u_category');
+            grTA.query();
+
+            while (grTA.next()) {
+                var groups = grTA.getDisplayValue('u_groups').split(',');
+                var roles = grTA.getDisplayValue('u_roles').split(',');
+
+                var hasAccess = false;
+
+                groups.forEach(function(group) {
+                    if (gs.getUser().isMemberOf(group) &amp;&amp; group != '') {
+                        hasAccess = true;
+                    }
+                });
+
+                roles.forEach(function(role) {
+                    if (gs.getUser().hasRole(role) &amp;&amp; role != '') {
+                        hasAccess = true;
+                    }
+                });
+
+                // Filter out any categories the user does not have access to
+                if (grTA.u_category != '') {
+                    if (!hasAccess) {
+                        if (task) {
+                            filter += 'cat_item.category!=' + grTA.u_category + '^ORrequest_item.requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORwatch_listDYNAMIC90d1921e5f510100a9ad2572f2b477fe^';
+                        } else {
+                            filter += 'cat_item.category!=' + grTA.u_category + '^ORrequested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORwatch_listDYNAMIC90d1921e5f510100a9ad2572f2b477fe^';
+                        }
+                    }
+                } else {
+                    // Skip ticket access records where no groups or roles are defined
+                    if (groups == '' &amp;&amp; roles == '') {
+                        // skip
+                    } else if (!hasAccess) {
+                        if (task) {
+                            filter += 'cat_item.sc_catalogsNOT' + grTA.u_catalog + '^ORrequest_item.requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORwatch_listDYNAMIC90d1921e5f510100a9ad2572f2b477fe^';
+                        } else {
+                            filter += 'cat_item.sc_catalogsNOT' + grTA.u_catalog +
+                                '^ORrequested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORwatch_listDYNAMIC90d1921e5f510100a9ad2572f2b477fe^';
+                        }
+                    }
+                }
+            }
+        }
+
+        return filter;
+    },
+
+    // Checks the Ticket Access table for
+    // any records that contain a matching
+    // catalog and category
+    checkExistingCategory: function(catologue, categoria) {
+        var catalog = catologue != null ? catologue : this.getParameter('sysparm_catalog');
+        var category = categoria != null ? categoria : this.getParameter('sysparm_category');
+
+        var ticketAccess = new GlideRecord('u_ticket_access');
+        ticketAccess.addEncodedQuery('u_catalog=' + catalog + '^u_category=' + category);
+        ticketAccess.query();
+
+        if (ticketAccess.next()) {
+            return true;
+        }
+        return false;
+    },
+
+    // Checks the Ticket Access table for
+    // any records that contain a matching
+    // catalog and no category
+    checkExistingCatalog: function(catologue) {
+        var catalog = catologue != null ? catologue : this.getParameter('sysparm_catalog');
+
+        var ticketAccess = new GlideRecord('u_ticket_access');
+        ticketAccess.addEncodedQuery('u_catalog=' + catalog + '^u_categoryISEMPTY');
+        ticketAccess.query();
+
+        if (ticketAccess.next()) {
+            return true;
+        }
+        return false;
+    },
+
+    type: 'TicketAccessUtil'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-07 01:20:09&lt;/sys_created_on&gt;&lt;sys_id&gt;2a3ed8a2931e71106a8b345d6cba10bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;TicketAccessUtil&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_2a3ed8a2931e71106a8b345d6cba10bd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-07 19:08:11&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-248846001</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>a315d47a935eb1106a8b345d6cba10d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18bab2f65560000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>TicketAccessUtil</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>3fe35cf6895eb1101efd992ad7df4b20</update_guid>
+<update_guid_history>3fe35cf6895eb1101efd992ad7df4b20:-248846001,f4611836415eb110333acd4b55a4f6be:-1381151644,c7fa487e8f1eb110a9eb28ed9559617e:-760282149,c2350076b31eb110dcda72c903e8c436:-1832842743,82840076541eb110fa051af7c12e6313:135345087,6c540c36d11eb1109433a00f67354be0:1537186868,e98077eec79ab1107951c33063bb6834:-2089215788,ad0073aebd9ab110659c6df6342c562f:-1946648531,dce06bae405ab110121ba2d4328931a5:-1832842743,87e91be6575ab11002130ce2ac090349:-230673352,1b275b26a75ab110498c5b395eb7d7e9:-361599710,8e1a2826815e7110c2f5cce2647010bd:-45843991,a00ae426215e711071f5a12e0798e1fc:-883541867,04b72cae0f1e71102bbcfb0b609f9838:-143792726,6f76e4aeec1e7110e7f78626990b6957:-162665291,7c6660ae141e71100c336abfd93b8d4a:-1713344812,fb65e4eae21e7110257dab138985f834:-162665291,97d424aa141e71109f10d1d689c9d50a:-528802424,57842c2aa31e711047c8688ce9e59b79:1956405608,8bf2e8e6d61e7110c58d69e5e19f6044:1486872976,4442e0a6a91e71109388792cd726f21e:2144041537,32106066361e7110110ba303847e753a:-1417361095,2e7fd426891e71109b6f7220b3a1083f:667538017</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_5069a3129752b110f87eba77f053af33</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_catalog</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:24:13</sys_created_on><sys_id>5069a3129752b110f87eba77f053af33</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_catalog</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_5069a3129752b110f87eba77f053af33</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 23:22:05</sys_updated_on><table>u_ticket_access</table><ui_policy display_value="Type is Requested Item">2549efde9712b110f87eba77f053af92</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+<payload_hash>-1420997424</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>a315d47a935eb1106a8b345d6cba10d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba6f17b360000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_catalog</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>c174082a2a5a71106f8bb6fdc6e01133</update_guid>
+<update_guid_history>c174082a2a5a71106f8bb6fdc6e01133:-1420997424,63ecfb1ebe1a71109baf6531650a02e3:-1410287148,7679abde7612b1107628baded2aa7124:-44193947</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_b1a10f1e975e7110f87eba77f053af84</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Ticket Access">fda10f1e975e7110f87eba77f053af7f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Ticket Access</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_ticket_access</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>u_ticket_access_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b1a10f1e975e7110f87eba77f053af84</sys_id><sys_mod_count>1</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_b1a10f1e975e7110f87eba77f053af84</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:17:37</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1286219568</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>a715543a935eb1106a8b345d6cba1098</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba67f88440000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>All</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>42f76b5ec412b1109e2e8063c0e002f4</update_guid>
+<update_guid_history>42f76b5ec412b1109e2e8063c0e002f4:-1286219568,fda10f1ec85e7110744b27d9efdbbb86:-757369438</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ticket_access_u_catalog</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_catalog" table="u_ticket_access"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Catalog&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_catalog&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_ticket_access&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_catalog"&gt;sc_catalog&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;active=true^EQ&lt;/reference_qual&gt;&lt;reference_qual_condition table="sc_catalog"&gt;active=true^EQ&lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/reference_qual_condition&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 19:06:37&lt;/sys_created_on&gt;&lt;sys_id&gt;7dc9c796979e7110f87eba77f053afa0&lt;/sys_id&gt;&lt;sys_name&gt;Catalog&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_ticket_access_u_catalog&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-06 21:26:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>806737199</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>a715d47a935eb1106a8b345d6cba10d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba6876e940000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Catalog</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>28f92b123552b110b3c3f8335a78b292</update_guid>
+<update_guid_history>28f92b123552b110b3c3f8335a78b292:806737199,9ff9cb96289e7110b47a799666c5a799:-1591896579</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_b4d11436935eb1106a8b345d6cba1057</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;prevent multiple records with catalog populated and an empty category&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Prevent duplicate catalog no category&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+	var catalog = g_form.getValue('u_catalog');
+
+	var ajax = new GlideAjax('TicketAccessUtil');
+	ajax.addParam('sysparm_name', 'checkExistingCatalog');
+	ajax.addParam('sysparm_catalog', catalog);
+	ajax.getXMLWait();
+
+	if(ajax.getAnswer() == 'true'){
+		g_form.addErrorMessage('Cannot add multiple records with no category selected');
+		return false;
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-07 19:03:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b4d11436935eb1106a8b345d6cba1057&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Prevent duplicate catalog no category&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b4d11436935eb1106a8b345d6cba1057&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-07 19:05:12&lt;/sys_updated_on&gt;&lt;table&gt;u_ticket_access&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-540237901</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>a715d47a935eb1106a8b345d6cba10d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18bab2ca7be0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Prevent duplicate catalog no category</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>84439836bb5eb110c24b546d8389d212</update_guid>
+<update_guid_history>84439836bb5eb110c24b546d8389d212:-540237901,a113d0f6bb5eb110f568309f58f22291:330968327,bfd290b63d5eb11047fbbf967ba32b87:-1794121148</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_ticket_access_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_ticket_access" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_number</element><list_id display_value="u_ticket_access" element="NULL" name="u_ticket_access" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e41abb5a931a71106a8b345d6cba108a</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:36:43</sys_created_on><sys_id>681abb5a931a71106a8b345d6cba108b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:36:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>active</element><list_id display_value="u_ticket_access" element="NULL" name="u_ticket_access" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e41abb5a931a71106a8b345d6cba108a</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:36:43</sys_created_on><sys_id>201abb5a931a71106a8b345d6cba108c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:36:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_catalog</element><list_id display_value="u_ticket_access" element="NULL" name="u_ticket_access" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e41abb5a931a71106a8b345d6cba108a</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:36:43</sys_created_on><sys_id>a01abb5a931a71106a8b345d6cba108c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:36:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_category</element><list_id display_value="u_ticket_access" element="NULL" name="u_ticket_access" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e41abb5a931a71106a8b345d6cba108a</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:36:43</sys_created_on><sys_id>241abb5a931a71106a8b345d6cba108c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:36:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_groups</element><list_id display_value="u_ticket_access" element="NULL" name="u_ticket_access" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e41abb5a931a71106a8b345d6cba108a</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:36:43</sys_created_on><sys_id>a41abb5a931a71106a8b345d6cba108c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:36:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_roles</element><list_id display_value="u_ticket_access" element="NULL" name="u_ticket_access" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e41abb5a931a71106a8b345d6cba108a</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:36:43</sys_created_on><sys_id>281abb5a931a71106a8b345d6cba108c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:36:43</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_ticket_access</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:36:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e41abb5a931a71106a8b345d6cba108a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_ticket_access_null</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:36:43</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-391710700</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>a715d47a935eb1106a8b345d6cba10d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba6c7f1db0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>281abb5a9c1a71103ea7729b09937f8e</update_guid>
+<update_guid_history>281abb5a9c1a71103ea7729b09937f8e:-391710700,dd9aeb526a52b11034f6beb4450923d4:-77034713,ea794396cf9e711018e1a79955d04800:-419491901</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_afcb27d29752b110f87eba77f053af18</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create Incident">3f1dd0320a0a0b99000a53f7604a2ef9</sc_cat_item><sc_catalog display_value="BizApps">2fb776778723a510c028caad0ebb35a6</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:34:23</sys_created_on><sys_id>afcb27d29752b110f87eba77f053af18</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BizApps.Create Incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_afcb27d29752b110f87eba77f053af18</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:34:23</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>1588443644</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>ab15543a935eb1106a8b345d6cba1097</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba68ee1060000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>BizApps.Create Incident</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>b3cba7d27c52b110beeb0603902c209b</update_guid>
+<update_guid_history>b3cba7d27c52b110beeb0603902c209b:1588443644</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ticket_access__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Ticket Access" language="en" table="u_ticket_access"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Ticket Access</label><language>en</language><name>u_ticket_access</name><plural>Ticket Access</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:14</sys_created_on><sys_id>dea14f1e975e7110f87eba77f053af34</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ticket Access</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ticket_access__en</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1346492106</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>ab15d47a935eb1106a8b345d6cba10d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e64a310000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>92a14f1e4b5e7110b871c76b164fd250</update_guid>
+<update_guid_history>92a14f1e4b5e7110b871c76b164fd250:-1346492106</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_8ea10f1e975e7110f87eba77f053afc7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:14</sys_created_on><sys_id>8ea10f1e975e7110f87eba77f053afc7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access.u_ticket_access_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_ticket_access">82a10f1e975e7110f87eba77f053afc4</sys_security_acl><sys_update_name>sys_security_acl_role_8ea10f1e975e7110f87eba77f053afc7</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:14</sys_updated_on><sys_user_role display_value="u_ticket_access_user" name="u_ticket_access_user">7da10f5a975e7110f87eba77f053af4e</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1594839038</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>ab15d47a935eb1106a8b345d6cba10d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e6471d0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_ticket_access.u_ticket_access_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>4aa10f1e525e7110b84a06eb570309c9</update_guid>
+<update_guid_history>4aa10f1e525e7110b84a06eb570309c9:-1594839038</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ticket_access_u_groups_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_groups" label="Groups" language="en" table="u_ticket_access"><sys_documentation action="INSERT_OR_UPDATE"><element>u_groups</element><help/><hint/><label>Groups</label><language>en</language><name>u_ticket_access</name><plural>Groups</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 22:34:47</sys_created_on><sys_id>d8a9b35a931a71106a8b345d6cba1028</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Groups</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ticket_access_u_groups_en</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:34:47</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>414948250</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>af15d47a935eb1106a8b345d6cba10d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba6c62f660000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Groups</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>94a9b35a811a7110c48b7e5f9696c337</update_guid>
+<update_guid_history>94a9b35a811a7110c48b7e5f9696c337:414948250</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_82a10f1e975e7110f87eba77f053af98</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_ticket_access</description><local_or_existing>Local</local_or_existing><name>u_ticket_access</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_id>82a10f1e975e7110f87eba77f053af98</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ticket_access</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_82a10f1e975e7110f87eba77f053af98</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:13</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>612273617</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>af15d47a935eb1106a8b345d6cba10d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e6468e0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_ticket_access</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>8aa10f1e9b5e7110fe2227fcdb9d399a</update_guid>
+<update_guid_history>8aa10f1e9b5e7110fe2227fcdb9d399a:612273617</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_fda10f1e975e7110f87eba77f053af7f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Ticket Access</name><order>100</order><roles>u_ticket_access_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fda10f1e975e7110f87eba77f053af7f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ticket Access</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_fda10f1e975e7110f87eba77f053af7f</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:13</sys_updated_on><title>Ticket Access</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>381372472</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>e315543a935eb1106a8b345d6cba1098</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e6446d0000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>Ticket Access</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>7da10f1ea85e71109f4384b4743a1582</update_guid>
+<update_guid_history>7da10f1ea85e71109f4384b4743a1582:381372472</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ticket_access_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" extends="dl_matcher" table="u_ticket_access"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;live_feed=true,update_synch=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_ticket_access&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 18:30:14&lt;/sys_created_on&gt;&lt;sys_id&gt;8aa14f1e975e7110f87eba77f053af0f&lt;/sys_id&gt;&lt;sys_name&gt;u_ticket_access&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_ticket_access_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-06 18:30:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1154570800</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>e315d47a935eb1106a8b345d6cba10d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e64de90000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2aa18f1e0a5e7110f0c5b9a4ae4dc4a5</update_guid>
+<update_guid_history>2aa18f1e0a5e7110f0c5b9a4ae4dc4a5:1154570800,96a14f1ea35e71109e557c5c815ddf4e:1524288510</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_671c97129712b110f87eba77f053af86</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Ticket Access Query Filter&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var filter = '';
+
+    var catalog = new GlideRecord('sc_catalog');
+    catalog.addActiveQuery();
+    catalog.query();
+
+    while (catalog.next()) {
+        var grTA = new GlideRecord('u_ticket_access');
+        grTA.addQuery('u_catalog', catalog.getUniqueValue());
+        grTA.orderByDesc('u_category');
+        grTA.query();
+
+        while (grTA.next()) {
+            var groups = grTA.getDisplayValue('u_groups').split(',');
+            var roles = grTA.getDisplayValue('u_roles').split(',');
+
+            var hasAccess = false;
+
+            groups.forEach(function(group) {
+                if (gs.getUser().isMemberOf(group) &amp;&amp; group != '') {
+                    hasAccess = true;
+                }
+            });
+
+            roles.forEach(function(role) {
+                if (gs.getUser().hasRole(role) &amp;&amp; role != '') {
+                    hasAccess = true;
+                }
+            });
+
+            // Filter out any categories the user does not have access to
+            if (grTA.u_category != '') {
+                // Check User is part of group or has role
+                if (!hasAccess) {
+                    filter += 'cat_item.category!=' + grTA.u_category + '^ORrequested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORwatch_listDYNAMIC90d1921e5f510100a9ad2572f2b477fe^';
+                }
+            } else {
+                // Add/Remove Acces to catalogs
+                if (groups == '' &amp;&amp; roles == '') {
+                    filter += 'cat_item.sc_catalogsLIKE' + grTA.u_catalog +
+                        '^ORrequested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORwatch_listDYNAMIC90d1921e5f510100a9ad2572f2b477fe^';
+                } else if (hasAccess) {
+                    filter += 'cat_item.sc_catalogsLIKE' + grTA.u_catalog +
+                        '^ORrequested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORwatch_listDYNAMIC90d1921e5f510100a9ad2572f2b477fe^';
+                }
+            }
+        }
+    }
+
+	current.addEncodedQuery(filter);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 21:17:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;671c97129712b110f87eba77f053af86&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ticket Access Query Filter&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_671c97129712b110f87eba77f053af86&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-07 00:58:31&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=671c97129712b110f87eba77f053af86"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1188009635</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>e315d47a935eb1106a8b345d6cba10d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba749c6b80000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>Ticket Access Query Filter</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>358a50eac4da7110cd540d75336f0849</update_guid>
+<update_guid_history>358a50eac4da7110cd540d75336f0849:1188009635,7438dcee149a7110432ce675be1eb5ef:-738345358,5336c8e6295a7110424062cf39938946:-1563341574,bb244ca6745a7110d4c730e6da0b7029:1341558162,62b3c8e6f25a7110b869ccf2edd6f33a:-1165896378,52343316211a7110c897481bbd17014e:-1209937625,27f2bb12de1a71103b89e2c23cfd77dc:1844857343,d4e2bb926d1a7110d0df49eba67f1de2:-617533181,76d72f5eae12b110d7727882bbdd190b:88277155</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_b5a10f1e975e7110f87eba77f053af88</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Ticket Access</name><order/><roles>u_ticket_access_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 18:30:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b5a10f1e975e7110f87eba77f053af88</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ticket Access</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_b5a10f1e975e7110f87eba77f053af88</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 18:30:13</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-386597420</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>e315d47a935eb1106a8b345d6cba10d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba5e644e70000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>Ticket Access</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>35a10f1e225e7110691bb3622f6da08a</update_guid>
+<update_guid_history>35a10f1e225e7110691bb3622f6da08a:-386597420</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_77cba7d29752b110f87eba77f053af9c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create Incident">3f1dd0320a0a0b99000a53f7604a2ef9</sc_cat_item><sc_catalog display_value="IT Ops">86993eb78723a510c028caad0ebb358d</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:34:23</sys_created_on><sys_id>77cba7d29752b110f87eba77f053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IT Ops.Create Incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_77cba7d29752b110f87eba77f053af9c</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:34:23</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>-906908132</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>e715543a935eb1106a8b345d6cba1097</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba68ee1630000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table/>
+<target_name>IT Ops.Create Incident</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>f7cba7d27f52b110a497e2c8eee627a2</update_guid>
+<update_guid_history>f7cba7d27f52b110a497e2c8eee627a2:-906908132</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ticket_access_u_type_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_type" label="Type" language="en" table="u_ticket_access"><sys_documentation action="INSERT_OR_UPDATE"><element>u_type</element><help/><hint/><label>Type</label><language>en</language><name>u_ticket_access</name><plural>Types</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:19:16</sys_created_on><sys_id>0e58eb9e9712b110f87eba77f053af71</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ticket_access_u_type_en</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 21:19:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1510038435</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>e715d47a935eb1106a8b345d6cba10d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba6810a100000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Type</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>1658eb9eca12b110e291d1510e162b82</update_guid>
+<update_guid_history>1658eb9eca12b110e291d1510e162b82:-1510038435</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6a7fd426931e71106a8b345d6cba103b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-07 01:20:09</sys_created_on><sys_id>6a7fd426931e71106a8b345d6cba103b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TicketAccessUtil.public</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="TicketAccessUtil">6a7fd426931e71106a8b345d6cba1035</sys_security_acl><sys_update_name>sys_security_acl_role_6a7fd426931e71106a8b345d6cba103b</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-07 01:20:09</sys_updated_on><sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>859047471</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>e715d47a935eb1106a8b345d6cba10d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba75d93230000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>TicketAccessUtil</table>
+<target_name>TicketAccessUtil.public</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>ee7fd426021e71101883dab84c877f3d</update_guid>
+<update_guid_history>ee7fd426021e71101883dab84c877f3d:859047471</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ticket_access_u_category_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_category" label="Category" language="en" table="u_ticket_access"><sys_documentation action="INSERT_OR_UPDATE"><element>u_category</element><help/><hint/><label>Category</label><language>en</language><name>u_ticket_access</name><plural>Categories</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 20:22:58</sys_created_on><sys_id>ed7b939e97de7110f87eba77f053af7b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Category</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ticket_access_u_category_en</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 20:22:58</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1295816904</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>eb15d47a935eb1106a8b345d6cba10d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba64d81530000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Category</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>757b939efdde711053ae1e44b375b08a</update_guid>
+<update_guid_history>757b939efdde711053ae1e44b375b08a:-1295816904</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_6a7fd426931e71106a8b345d6cba1035</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><local_or_existing>Local</local_or_existing><name>TicketAccessUtil</name><operation display_value="execute">execute</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-07 01:20:09</sys_created_on><sys_id>6a7fd426931e71106a8b345d6cba1035</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TicketAccessUtil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_6a7fd426931e71106a8b345d6cba1035</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-07 01:20:09</sys_updated_on><type display_value="client_callable_script_include">client_callable_script_include</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-687373993</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>eb15d47a935eb1106a8b345d6cba10d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba75d92f00000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>TicketAccessUtil</table>
+<target_name>TicketAccessUtil</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>627fd426a11e71103d0461d410f8263a</update_guid>
+<update_guid_history>627fd426a11e71103d0461d410f8263a:-687373993</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ticket_access_u_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_number" table="u_ticket_access"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;ignore_filter_on_new=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:global.getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;true&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_ticket_access&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 18:30:15&lt;/sys_created_on&gt;&lt;sys_id&gt;52a14f1e975e7110f87eba77f053af8e&lt;/sys_id&gt;&lt;sys_name&gt;Number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_ticket_access_u_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-07 18:12:38&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1535017055</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>ef15d47a935eb1106a8b345d6cba10d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18baafc88140000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>Ticket Access.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4e37c8ba1e1eb110296aecba4e9606d0</update_guid>
+<update_guid_history>4e37c8ba1e1eb110296aecba4e9606d0:-1535017055,6aa14f1e205e71109b0d44d60db56af6:1444238524</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_dfd020a6931e71106a8b345d6cba1025</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_task&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Ticket Access Query Filter&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (gs.isInteractive()) {
+        var filter = new TicketAccessUtil().ritmTaskFilter(true);
+        current.addEncodedQuery(filter);
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julian.gonzalez@cohesity.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-07 01:26:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dfd020a6931e71106a8b345d6cba1025&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ticket Access Query Filter&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_dfd020a6931e71106a8b345d6cba1025&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julian.gonzalez@cohesity.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-07 18:06:20&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dfd020a6931e71106a8b345d6cba1025"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1040866857</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>ef15d47a935eb1106a8b345d6cba10d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18baaf6c6730000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>sc_task</table>
+<target_name>Ticket Access Query Filter</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>f9c5cc76cd1eb1108b05ea6abd50874f</update_guid>
+<update_guid_history>f9c5cc76cd1eb1108b05ea6abd50874f:1040866857,8ba544b6b71eb1109289b99ff7925a2a:-89993424,c0958476891eb1105477a31f69ac2f12:1040866857,45f828a24f5e7110da3af92c5526f787:-1453313666,80d76cee071e7110b2011a2f6b42b375:1064744333,b6b760eecc1e71101b9175a499eb305e:-1453313666,43b4e0aa271e71103c9a3c825be5383a:1017837680,be34a86a361e7110ef58ec2aee954d96:1154133858,10d3282a3d1e711009b6f97cf24fb8e3:1302943643,a493642af21e7110041f137c3beab9c7:-2022825117,4a92a4e6cb1e7110df9a41f43a2672c4:559576932,a9f0e866b61e7110d56bd605e02efc1e:1017837680</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_377967129752b110f87eba77f053af57</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_category</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2023-11-06 21:24:26</sys_created_on><sys_id>377967129752b110f87eba77f053af57</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_category</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_377967129752b110f87eba77f053af57</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2023-11-06 22:49:12</sys_updated_on><table>u_ticket_access</table><ui_policy display_value="Type is Requested Item">2549efde9712b110f87eba77f053af92</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+<payload_hash>-1824977564</payload_hash>
+<remote_update_set display_value="Catalog restriction">6f15543a935eb1106a8b345d6cba1096</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2023-11-07 19:13:22</sys_created_on>
+<sys_id>ef15d47a935eb1106a8b345d6cba10d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ba6d361240000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2023-11-07 19:13:22</sys_updated_on>
+<table>u_ticket_access</table>
+<target_name>u_category</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>23ec331ef31a7110417bc8e3f8de7dbf</update_guid>
+<update_guid_history>23ec331ef31a7110417bc8e3f8de7dbf:-1824977564,4289e7de0a12b110ddb9dfb8ebc675f4:1025563317</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
