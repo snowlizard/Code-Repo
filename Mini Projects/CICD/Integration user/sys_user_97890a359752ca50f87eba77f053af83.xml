@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2024-05-21 21:22:50">
+<sys_user action="INSERT_OR_UPDATE">
+<active>true</active>
+<avatar/>
+<building display_value=""/>
+<calendar_integration>1</calendar_integration>
+<city/>
+<company display_value=""/>
+<cost_center display_value=""/>
+<country/>
+<date_format/>
+<default_perspective display_value=""/>
+<department display_value=""/>
+<edu_status>faculty</edu_status>
+<email/>
+<employee_number/>
+<enable_multifactor_authn>false</enable_multifactor_authn>
+<failed_attempts>0</failed_attempts>
+<federated_id>Qdn5rjCXwIpXKzQ9a7EMSTOcBeclXTnXxHUbS/R0G/g=</federated_id>
+<first_name>CICD</first_name>
+<gender/>
+<home_phone/>
+<internal_integration_user>true</internal_integration_user>
+<introduction/>
+<last_login/>
+<last_login_device/>
+<last_login_time/>
+<last_name>User</last_name>
+<last_password/>
+<ldap_server display_value=""/>
+<location display_value=""/>
+<locked_out>false</locked_out>
+<manager display_value="Ian Barrett">c2504450c36e1910c4395c4ce00131f7</manager>
+<middle_name/>
+<mobile_phone/>
+<name>CICD User</name>
+<notification>2</notification>
+<password_needs_reset>false</password_needs_reset>
+<phone/>
+<photo/>
+<preferred_language/>
+<roles/>
+<schedule display_value=""/>
+<source/>
+<sso_source/>
+<state/>
+<street/>
+<sys_class_name>sys_user</sys_class_name>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:19:52</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>97890a359752ca50f87eba77f053af83</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>guest</sys_updated_by>
+<sys_updated_on>2024-05-21 21:21:49</sys_updated_on>
+<time_format/>
+<time_zone/>
+<title/>
+<user_name>CICD Integration User</user_name>
+<user_password>$s$8QJ83tT3UyNt1K9hrcBK5HuHJqpfJx5V4d5N+EeoCFM=$LvLxemgeBh2TGTrMF3HSGPw6RXJQwlJkv1se+hrCB6k=</user_password>
+<vip>false</vip>
+<web_service_access_only>false</web_service_access_only>
+<x_pd_integration_pagerduty_id/>
+<zip/>
+</sys_user>
+</unload>

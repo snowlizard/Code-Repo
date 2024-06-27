@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-06-04 16:41:29">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Issue moving flow from approval to commit update sets</description>
+<inserted/>
+<name>CICD Flow Fix</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>25d9819693a68a90ef24366d6cba10e1</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-06-04 16:41:28</sys_created_on>
+<sys_id>0a30111e93a68a90ef24366d6cba101f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-06-04 16:41:28</sys_updated_on>
+<u_story display_value=""/>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sttrm_state_transition_374230de93268a90ef24366d6cba10bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sttrm_state_transition"><sttrm_state_transition action="INSERT_OR_UPDATE"><automatic>false</automatic><from_state display_value="New">cc26227397de0690f87eba77f053af86</from_state><name>New to Implement</name><sys_class_name>sttrm_state_transition</sys_class_name><sys_created_by>julian.gonzalez@cohesity.com</sys_created_by><sys_created_on>2024-06-04 14:30:52</sys_created_on><sys_id>374230de93268a90ef24366d6cba10bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New to Implement</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sttrm_state_transition_374230de93268a90ef24366d6cba10bc</sys_update_name><sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by><sys_updated_on>2024-06-04 14:30:52</sys_updated_on><to_state display_value="Implement">13566a3397de0690f87eba77f053af77</to_state></sttrm_state_transition><sys_translated_text action="delete_multiple" query="documentkey=374230de93268a90ef24366d6cba10bc"/></record_update>]]></payload>
+<payload_hash>-1801304995</payload_hash>
+<remote_update_set display_value="CICD Flow Fix">0a30111e93a68a90ef24366d6cba101f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-06-04 16:41:28</sys_created_on>
+<sys_id>0e30111e93a68a90ef24366d6cba101f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fe3a8f8760000001</sys_recorded_at>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-06-04 16:41:28</sys_updated_on>
+<table/>
+<target_name>New to Implement</target_name>
+<type>Model State Transition</type>
+<update_domain>global</update_domain>
+<update_guid>095230de31268a9034791393db869ff1</update_guid>
+<update_guid_history>095230de31268a9034791393db869ff1:-1801304995</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

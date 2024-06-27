@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2024-05-21 21:23:06">
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count/>
+<inh_map/>
+<inherited>false</inherited>
+<role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>3ab906f19752ca50f87eba77f053af1d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="ais_admin" name="ais_admin">e523e2f2c7130010d1cfd9795cc2606d</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>76b94e759752ca50f87eba77f053af6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="announcement_admin" name="announcement_admin">eec503f5e7d3320075c2a117c2f6a92e</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>76b94e759752ca50f87eba77f053af67</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="catalog" name="catalog">e098ecf6c0a80165002aaec84d906014</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7ab94e759752ca50f87eba77f053af6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="catalog_admin" name="catalog_admin">e09d16f2c0a8016501281264b989e1db</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7ab94e759752ca50f87eba77f053af63</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>2</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="catalog_builder_editor" name="catalog_builder_editor">3b0ec2f273311010b30e2ee2c4f6a7fe</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>72b94e759752ca50f87eba77f053af66</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="catalog_lookup_admin" name="catalog_lookup_admin">e4c5120a9f1030007bb2ed93ee4bcc3b</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7ab94e759752ca50f87eba77f053af5e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="catalog_template_editor" name="catalog_template_editor">8c6d381b73031010e12d1e3014f6a798</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:05</sys_created_on>
+<sys_id>72b94e759752ca50f87eba77f053af75</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:05</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="chat_admin" name="chat_admin">7f67906c0a0a0b05003e2c61186f82fb</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7eb94e759752ca50f87eba77f053af69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="evam_admin" name="evam_admin">121b7f105b031010e91728582d81c760</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7eb94e759752ca50f87eba77f053af5f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>2</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="image_admin" name="image_admin">a2e5ab360a0a0b41002d44d7f90464b4</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7eb94e759752ca50f87eba77f053af64</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="live_feed_admin" name="live_feed_admin">60fca1f7c0a8018c0023b2cd82975bb1</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>76b94e759752ca50f87eba77f053af62</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>2</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="ml_admin" name="ml_admin">73ee088087200300c96c452c97cb0b06</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>76b94e759752ca50f87eba77f053af71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>2</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="pa_data_collector" name="pa_data_collector">a640c173bf101100b96dac808c0739de</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7ab94e759752ca50f87eba77f053af68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>4</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="pa_viewer" name="pa_viewer">a90d30b3bf101100b96dac808c073950</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>76b94e759752ca50f87eba77f053af5d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="personalize_dictionary" name="personalize_dictionary">30169459a9fe3dba01a70fa0acebfe45</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:05</sys_created_on>
+<sys_id>76b94e759752ca50f87eba77f053af7b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:05</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="search_application_admin" name="search_application_admin">e34808e25b031010e91728582d81c774</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7ab94e759752ca50f87eba77f053af72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="search_relevancy_model_admin" name="search_relevancy_model_admin">8304213143df211030dbf03a5ab8f2d8</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7eb94e759752ca50f87eba77f053af73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="sn_ace.ace_user" name="sn_ace.ace_user">717be9f0eb2f0110da1861c59c522842</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:05</sys_created_on>
+<sys_id>72b94e759752ca50f87eba77f053af7a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:05</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>2</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="sn_employee.admin" name="sn_employee.admin">22e876667303001001b566b90ff6a7bd</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>72b94e759752ca50f87eba77f053af61</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="sn_hr_sp.admin" name="sn_hr_sp.admin">405fa64c5ba02200502f6ede91f91a2c</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:05</sys_created_on>
+<sys_id>7ab94e759752ca50f87eba77f053af7c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:05</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="sn_hr_sp.esc_admin" name="sn_hr_sp.esc_admin">bb634328b7942300f9359277ee11a94f</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>72b94e759752ca50f87eba77f053af5c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="sn_templated_snip.template_snippet_admin" name="sn_templated_snip.template_snippet_admin">1250d5d5534103002b76ddeeff7b1286</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:05</sys_created_on>
+<sys_id>76b94e759752ca50f87eba77f053af76</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:05</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="sn_templated_snip.template_snippet_reader" name="sn_templated_snip.template_snippet_reader">ba25d7230b70030036e62c7885673af6</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:05</sys_created_on>
+<sys_id>7eb94e759752ca50f87eba77f053af78</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:05</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="sn_templated_snip.template_snippet_writer" name="sn_templated_snip.template_snippet_writer">8ae5d7230b70030036e62c7885673afe</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>72b94e759752ca50f87eba77f053af6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>1</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="sp_admin" name="sp_admin">cd640d10d7101200a9addd173e24d4cd</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>72b94e759752ca50f87eba77f053af70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>2</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="taxonomy_admin" name="taxonomy_admin">5dad18b3533200108271ddeeff7b120a</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:05</sys_created_on>
+<sys_id>7ab94e759752ca50f87eba77f053af77</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:05</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count>3</inh_count>
+<inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+<inherited>true</inherited>
+<role display_value="user_criteria_admin" name="user_criteria_admin">0c924542c3202100c8b837659bba8ffa</role>
+<state>active</state>
+<sys_created_by>julian.gonzalez@cohesity.com</sys_created_by>
+<sys_created_on>2024-05-21 21:20:04</sys_created_on>
+<sys_id>7eb94e759752ca50f87eba77f053af6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>julian.gonzalez@cohesity.com</sys_updated_by>
+<sys_updated_on>2024-05-21 21:20:04</sys_updated_on>
+<user display_value="CICD User">97890a359752ca50f87eba77f053af83</user>
+</sys_user_has_role>
+</unload>
